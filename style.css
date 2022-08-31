@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    box-sizing: border-box;  /* this is done so that if we apply padding or border on any element its Actual Width isnot affected */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*CENTERS  HORIZONTALLY it needs width*/
+    justify-content: center; /*CENTERS  VERTICALLY its needs height  min-height*/
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.quiz-container{
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(100,100,100,0.1);
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+}
+.quiz-header{
+    padding: 3rem;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    font-family: inherit;
+}
+button:hover{
+    background-color: #732d91;
+}
+button:focus{
+    outline: none;
+    background-color: #5e3370;
+}
+
+
+
+
+
